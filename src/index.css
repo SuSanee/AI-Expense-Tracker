@@ -17,3 +17,13 @@
     overflow-x: hidden;
   }
 }
+
+.input-box {
+  @apply w-full flex justify-between text-sm text-black bg-slate-100 rounded-md px-3 py-2 border border-slate-300 outline-none ;
+}
+
+.btn-primary {
+  @apply w-full text-sm font-medium text-white bg-[#2a7c62] rounded-md hover:bg-[#379577] hover:text-[#1f5d49] px-3 py-2 cursor-pointer;
+}
+
+/*2A7C76 -- green*/
